@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualización de Artículo 3D</title>
+  <script src="https://cdn.jsdelivr.net/npm/shopar-plugin@0.8.5/dist/shopar-plugin.js"></script>
+</head>
+<body>
+  <h1>Anteojos en 3D - ProbARte</h1>
+  <div id="Probarte" style="width: 100%; max-width: 800px; height: 600px;"></div>
+
+  <script>
+    ShopAR.plugin.setup({
+      apiKey: "674992ae7d96018a3894701a",
+      sku: "225cac5717",
+      targetElement: document.getElementById("Probarte"),
+    });
+  </script>
+</body>
+</html>
+
